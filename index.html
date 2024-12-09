@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section>
+            <h2>Catalog</h2>
+            <ul>
+                <li><a href="">Страна</a></li>
+                <li><a href="">Название</a></li>
+                <li><a href="" onclick="sortPrice(event)">Цена</a></li>
+                <li>
+                    <select>
+                        <option disabled selected>Фильтр</option>
+                        <option value="Всё">Всё</option>
+                        <option value="Букеты">Букеты</option>
+                        <option value="Упаковка">Упаковка</option>
+                        <option value="Цветы">Цветы</option>
+                    </select>
+                </li>
+            </ul>
+            <div class="container">
+            <article data-type="Цветы" data-price="2490">
+                <img src="image/whitel.jpg" alt="">
+                <h3>Ромашки</h3>
+                <p>Цена <span>2490₽</span></p>
+                <p>Страна <span>Россия</span></p>
+                <p>Тип <span>Цветы</span></p>
+            </article>
+            <article data-type="Букеты" data-price="8500">
+                <img src="image/whitel.jpg" alt="">
+                <h3>Тюльпаны</h3>
+                <p>Цена <span>8500₽</span></p>
+                <p>Страна <span>Япония</span></p>
+                <p>Тип <span>Букеты</span></p>
+            </article>
+            <article data-type="Цветы" data-price="2000">
+                <img src="image/whitel.jpg" alt="">
+                <h3>Эдельвейс</h3>
+                <p>Цена <span>2000₽</span></p>
+                <p>Страна <span>Мексика</span></p>
+                <p>Тип <span>Цветы</span></p>
+            </article>
+            <article data-type="Упаковка" data-price="990">
+                <img src="image/whitel.jpg" alt="">
+                <h3>Упаковка с рисунком роз</h3>
+                <p>Цена <span>990₽</span></p>
+                <p>Страна <span>Бразилия</span></p>
+                <p>Тип <span>Упаковка</span></p>
+            </article>
+            <article data-type="Цветы" data-price="1230">
+                <img src="image/whitel.jpg" alt="">
+                <h3>Подсолнухи</h3>
+                <p>Цена <span>1230₽</span></p>
+                <p>Страна <span>Нигерия</span></p>
+                <p>Тип <span>Цветы</span></p>
+            </article>
+            <article data-type="Букеты" data-price="5000">
+                <img src="image/whitel.jpg" alt="">
+                <h3>Алоэ вера</h3>
+                <p>Цена <span>5000₽</span></p>
+                <p>Страна <span>Пакистан</span></p>
+                <p>Тип <span>Букеты</span></p>
+            </article>
+            <article data-type="Цветы" data-price="9100">
+                <img src="image/whitel.jpg" alt="">
+                <h3>Гиоргины</h3>
+                <p>Цена <span>9100₽</span></p>
+                <p>Страна <span>Индонезия</span></p>
+                <p>Тип <span>Цветы</span></p>
+            </article>
+            <article data-type="Упаковка" data-price="990">
+                <img src="image/whitel.jpg" alt="">
+                <h3>Упаковка красная</h3>
+                <p>Цена <span>990₽</span></p>
+                <p>Страна <span>Индия</span></p>
+                <p>Тип <span>Упаковка</span></p>
+            </article>
+            <article data-type="Букеты" data-price="4200">
+                <img src="image/whitel.jpg" alt="">
+                <h3>Пионы</h3>
+                <p>Цена <span>4200₽</span></p>
+                <p>Страна <span>Китай</span></p>
+                <p>Тип <span>Букеты</span></p>
+            </article>
+            <article data-type="Упаковка" data-price="500">
+                <img src="image/whitel.jpg" alt="">
+                <h3>Упаковка с цветами</h3>
+                <p>Цена <span>500₽</span></p>
+                <p>Страна <span>Соединенные Штаты</span></p>
+                <p>Тип <span>Упаковка</span></p>
+            </article>
+        </div>
+        </section>
+    </div>
+</body>
+<script src="js/js.js"></script>
+</html>
